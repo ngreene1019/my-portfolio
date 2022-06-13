@@ -15,5 +15,14 @@
 #menu-button{
     display: flex;
     align-items: flex-start;
+}
+
+#home-avatar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 325px;
+    height: 284.76px;
 
 }
+
