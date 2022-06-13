@@ -15,4 +15,6 @@
 #menu-button{
     display: flex;
     align-items: flex-start;
+    width: 25px;
+    height: 25px;
 }
