@@ -17,9 +17,10 @@
     align-items: flex-start;
 }
 
-/*#home-avatar{
+#home-avatar{
     display: flex;
-    width: 325px;
-    height: 284.76px;
-}*/
+    justify-content: flex-end;
+    /*width: 325px;
+    height: 284.76px;*/
+}
 
