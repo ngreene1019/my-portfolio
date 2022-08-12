@@ -12,10 +12,12 @@
 
 #greeting-container {
   margin-top: 20px;
+  font-family: 'Work Sans';
 }
 
 #thanks-container{
     font-family: 'Work Sans';
+    font-weight: 400px;
 }
 
 #heading{
@@ -130,6 +132,7 @@
   /*padding-top: 100px;*/
   letter-spacing: -1px;
   line-height: 45px;
+  color: #3C3C3C;
 }
 
 .about .Heading1 p{
@@ -148,10 +151,7 @@
   font-family: 'Playfair Display', serif;
   font-weight:700px;
   font-size: 45px;
-}
-
-#greeting-container{
-  font-family: 'Work Sans';
+  color: #3C3C3C;
 }
 
 #home-avatar{
@@ -159,5 +159,10 @@
     justify-content: flex-end;
     /*width: 325px;
     height: 284.76px;*/
+}
+
+#thankYou p{
+    font-family: 'Work Sans';
+    font-weight: 700px;
 }
 
