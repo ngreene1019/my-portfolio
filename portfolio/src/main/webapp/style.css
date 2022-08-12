@@ -161,8 +161,10 @@
     height: 284.76px;*/
 }
 
-#thankYou p{
+#thankYou h1{
     font-family: 'Work Sans';
     font-weight: 700px;
+    font-size: 25px;
+
 }
 
