@@ -27,3 +27,10 @@ function addRandomGreeting() {
     greetingContainer.innerText = greeting;
   }
   
+  async function showThanks() {
+    const responseFromServer = await fetch('/thankYou');
+    const textFromResponse = await responseFromServer.text();
+
+    const dateContainer = document.getElementById('thanks-container');
+    dateContainer.innerText = textFromResponse;
+  } 
