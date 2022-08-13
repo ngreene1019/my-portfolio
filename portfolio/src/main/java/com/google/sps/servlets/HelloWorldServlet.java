@@ -17,7 +17,7 @@ public class HelloWorldServlet extends HttpServlet {
     ArrayList<String> hobbies = new ArrayList<String>();
     hobbies.add("Baking");
     hobbies.add("Reading");
-    hobbies.add("Litsening to music");
+    hobbies.add("Listening to music");
     hobbies.add("Spending Time Outdoors");
 
 
