@@ -1,8 +1,8 @@
-#content {
+/**#content {
   margin-left: auto;
   margin-right: auto;
   width: 650px;
-}
+}**/
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
@@ -12,10 +12,6 @@
 
 #greeting-container {
   margin-top: 20px;
-}
-
-#thanks-container{
-    font-family: 'Work Sans';
 }
 
 #heading{
@@ -51,8 +47,6 @@
 #home_profiles{
   display: flex;
   margin-left: 1150px;
-}
-#greeting-container {
   margin-top: 20px;
   gap: 20px;
   width: 30px;
@@ -81,7 +75,7 @@
   line-height: 104.9%;
   text-align: center;
   color: #3C3C3C;
-
+ 
 }
 
 /*.navigation{
@@ -154,19 +148,4 @@
 
 #greeting-container{
   font-family: 'Work Sans';
-}
-
-#home-avatar{
-    display: flex;
-    justify-content: flex-end;
-    /*width: 325px;
-    height: 284.76px;*/
-}
-
-#thankYou h1{
-    font-family: 'Playfair Display', serif;
-    font-weight: 700px;
-    font-size: 45px;
-    color: #3C3C3C;
-
 }
