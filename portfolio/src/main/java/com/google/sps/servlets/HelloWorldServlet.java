@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /** Handles requests sent to the /hello URL. Try running a server and navigating to /hello! */
-/**@WebServlet("/myHobbies")
+@WebServlet("/myHobbies")
 public class HelloWorldServlet extends HttpServlet {
     
   @Override
@@ -23,9 +23,9 @@ public class HelloWorldServlet extends HttpServlet {
 
    
   }
-}**/
+}
 
-@WebServlet("/thankYou")
+/**@WebServlet("/thankYou")
 public class HelloWorldServlet extends HttpServlet {
     
   @Override
@@ -33,7 +33,7 @@ public class HelloWorldServlet extends HttpServlet {
     response.setContentType("text/html;");
     response.getWriter().println("Thank you for visiting!");
   }
-}
+}**/
 
 
 

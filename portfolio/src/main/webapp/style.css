@@ -130,6 +130,7 @@
   /*padding-top: 100px;*/
   letter-spacing: -1px;
   line-height: 45px;
+  color: #3C3C3C;
 }
 
 .about .Heading1 p{
@@ -148,15 +149,17 @@
   font-family: 'Playfair Display', serif;
   font-weight:700px;
   font-size: 45px;
+  color: #3C3C3C;
 }
 
 #greeting-container{
   font-family: 'Work Sans';
 }
 
-#thanksMessage{
+#thanksHeading{
   font-family: 'Playfair Display', serif;
   font-weight:700px;
   font-size: 25px;
+  color: #3C3C3C;
 }
 
