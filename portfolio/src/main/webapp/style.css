@@ -153,3 +153,9 @@
 #greeting-container{
   font-family: 'Work Sans';
 }
+
+#thanksMessage{
+  font-family: 'Playfair Display', serif;
+  font-weight:700px;
+  font-size: 45px;
+}
