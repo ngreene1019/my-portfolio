@@ -9,7 +9,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /** Handles requests sent to the /hello URL. Try running a server and navigating to /hello! */
-<<<<<<< HEAD
 @WebServlet("/myHobbies")
 public class HelloWorldServlet extends HttpServlet {
     
@@ -25,8 +24,6 @@ public class HelloWorldServlet extends HttpServlet {
    
   }
 }
-=======
->>>>>>> 1554aee9ada9361742ec1cfa0e6e907718e4cc7d
 
 /**@WebServlet("/thankYou")
 public class HelloWorldServlet extends HttpServlet {
