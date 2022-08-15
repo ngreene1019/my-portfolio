@@ -163,8 +163,9 @@
   color: #3C3C3C;
 }
 
-#contactMe{
+#contactMe h1{
 font-family: 'Playfair Display', serif;
   font-weight:700px;
-  font-size: 45px;
+  font-size: 25px;
+  color: #3C3C3C;
 }
