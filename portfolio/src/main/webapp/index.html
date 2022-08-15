@@ -6,21 +6,91 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
   </head>
-  <body>
-    <div id="content">
-      <a href = "/index.html"><img src="/images/Home_Button.png"/></a>
-      <h1>👋🏽Hi, my name is Najah Greene. Welcome to my portfolio!</h1>
-      <p><a href = "/index.html">HOME</a></p>
-      <p><a href = "/AboutMe.html">ABOUT ME</a></p>
-      <p><a href = "/experience.html">EXPERIENCE</a></p>
-      <p><a href = "/ExtraInfo.html">EXTRA INFO</a></p>
-      <p><a href = "/ContactMe.html">CONTACT ME</a></p>
-      <img src="/images/Home_Avatar.png"/>
-
     
-      
+  <!--Heading and Subheading-->
+    <body style="background-color:#FCF4F4;">
+        <div id="heading">
+          <h1>I'm Najah Greene</h1>
+        </div>
+        <div id="subheading">
+          <p1>Welcome to my portfolio</p1>
+        </div> 
 
+        <!--LinkedIn and Github Pages-->
+        <div id="home_profiles">
+          <img src="images/linkedin_logo.png">
+          <img src="images/github_logo.png">
+        </div>
+        <div id=home-button>
+            <p><a href="index.html">Najah</a></p>
+        </div>
 
+        <!--Navigation Bar-->
+        <nav>
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#about_paragraph">about</a>
+            </li>
+            <li class="nav-item">
+              <a href="">experience</a>
+            </li>
+            <li class="nav-item">
+              <a href="">quotes</a>
+            </li>
+            <li class="nav-item">
+              <a href="">contact</a>
+            </li>
+            <li class="nav-item">
+              <a href="">feedback</a>
+            </li>
+          </ul>
+        </nav>
 
-  </body>
+    <!--About Me section-->
+    <div class="about">
+        <div class="headhshot">
+            <img src="images/Najah_Greene_Headshot(2).png">
+        </div>
+        <div class="Heading1">
+            <h1>About Me</h1>
+        <p>
+            <a id="about_paragraph">I'm</a> currently a rising Junior at Howard University studying Computer Science. I'm passionate about computer science + education with aspirations of being a computer science teacher one day. This past school year I spent time volunterring for the Microsoft Code Academy. I had the oppurtunity to teach Secondary level Black students basic computer programing principles, HTML, and CSS sills alongside Microsoft employees.If I'm not in front of a Computer screen, you'll probably find me reading, baking, or litsening to music.
+        </p>
+        </div>
+            
+    </div>
+        
+    <!--Random Favorite quote-->
+    <div class= "Quotes">
+        <h1>Favorite Quotes</h1>
+        <button onclick="addRandomGreeting()">Click Here</button>
+    </div>
+    <div id="greeting-container"></div>
+
+    <!--Thank You Message-->
+    <div id="thanksHeading">
+        <h1>Click Below</h1>
+    </div>
+    <button onclick="showThanks();">
+      Get Message
+    </button>
+    <p id="thanks-container"></p>
+    <p>Click <a href="/thankYou">here</a> to see the server response directly.</p>
+
+    <!--Contact Me Form-->
+    <div id="contactMe">
+        <form action="/contact-form" method="POST">
+            <h1>Contact Me</h1>
+            <textarea name="name-input">Name</textarea>
+            <br/>
+            <textarea name="email-input">Email</textarea>
+            <br/>
+            <textarea name="message-input">Message</textarea>
+            <br/>
+            <input type="submit"/>
+        </form>
+    </div>
+    
+    
 </html>
+</body>

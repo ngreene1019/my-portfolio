@@ -16,13 +16,21 @@
  * Adds a random greeting to the page.
  */
 function addRandomGreeting() {
-  const greetings =
-      ['Hello world!', '¡Hola Mundo!', '你好，世界！', 'Bonjour le monde!'];
+    const greetings =
+        ['“Ive learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel.” ~ Maya Angelou', '"Strive for progress, not perfection." ~Anonymous', '"Focus on the step in front of you, not the whole starcase." ~ Anonymous'];
+  
+    // Pick a random greeting.
+    const greeting = greetings[Math.floor(Math.random() * greetings.length)];
+  
+    // Add it to the page.
+    const greetingContainer = document.getElementById('greeting-container');
+    greetingContainer.innerText = greeting;
+  }
+  
+  async function showThanks() {
+    const responseFromServer = await fetch('/thankYou');
+    const textFromResponse = await responseFromServer.text();
 
-  // Pick a random greeting.
-  const greeting = greetings[Math.floor(Math.random() * greetings.length)];
-
-  // Add it to the page.
-  const greetingContainer = document.getElementById('greeting-container');
-  greetingContainer.innerText = greeting;
-}
+    const dateContainer = document.getElementById('thanks-container');
+    dateContainer.innerText = textFromResponse;
+  } 
