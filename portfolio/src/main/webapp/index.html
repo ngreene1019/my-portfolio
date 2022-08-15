@@ -7,6 +7,7 @@
     <script src="script.js"></script>
   </head>
     
+  <!--Heading and Subheading-->
     <body style="background-color:#FCF4F4;">
         <div id="heading">
           <h1>I'm Najah Greene</h1>
@@ -14,6 +15,8 @@
         <div id="subheading">
           <p1>Welcome to my portfolio</p1>
         </div> 
+
+        <!--LinkedIn and Github Pages-->
         <div id="home_profiles">
           <img src="images/linkedin_logo.png">
           <img src="images/github_logo.png">
@@ -21,6 +24,8 @@
         <div id=home-button>
             <p><a href="index.html">Najah</a></p>
         </div>
+
+        <!--Navigation Bar-->
         <nav>
           <ul class="nav-list">
             <li class="nav-item">
@@ -40,7 +45,8 @@
             </li>
           </ul>
         </nav>
-      
+
+    <!--About Me section-->
     <div class="about">
         <div class="headhshot">
             <img src="images/Najah_Greene_Headshot(2).png">
@@ -54,13 +60,14 @@
             
     </div>
         
-        
+    <!--Random Favorite quote-->
     <div class= "Quotes">
         <h1>Favorite Quotes</h1>
         <button onclick="addRandomGreeting()">Click Here</button>
     </div>
     <div id="greeting-container"></div>
 
+    <!--Thank You Message-->
     <div id="thanksHeading">
         <h1>Click Below</h1>
     </div>
@@ -69,12 +76,21 @@
     </button>
     <p id="thanks-container"></p>
     <p>Click <a href="/thankYou">here</a> to see the server response directly.</p>
-    <form action="/form-handler" method="POST">
-        <p>Enter some text here:</p>
-        <textarea name="text-input">hello world</textarea>
-        <br/>
-        <input type="submit" />
-    </form>
+
+    <!--Contact Me Form-->
+    <div id="contactMe">
+        <form method="POST">
+            <h1>Contact Me</h1>
+            <textarea name="name-input">Name</textarea>
+            <br/>
+            <textarea name="email-input">Email</textarea>
+            <br/>
+            <textarea name="message-input">Message</textarea>
+            <br/>
+            <input type="submit"/>
+        </form>
+    </div>
+    
     
 </html>
 </body>
